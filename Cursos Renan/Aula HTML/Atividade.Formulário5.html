@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ativiade 5 - Formulário</title>
+</head>
+<body>
+    <form>
+    <h1><b>Escola Virtual</b></h1><br/>
+    <h2>Formulário de Pré-Matricula</h2><br/><hr>
+    <h3><b>Dados Pessoais:</b></h3><br/>
+    Nome do Aluno: <input type="text" name="nome"/><br/><br/>
+    Nascimento (dd/mm/aaaa): <input type="text" name="dia">/<input type="text" name="mês">/<input type="text" name="ano"><br/><br/>
+    Nome da Mãe: <input type="text" name="mãe"><br/><br/>
+    Nome do Pai: <input type="text" name="pai"><br/><br/>
+    Telefone: DDD (<input type="text" name="DDD"/>) Tel: (<input type="text" name="tel"/>) Ramal: (<input type="text" name="ramal"/>)<br/><br/>
+    E-mail: <input type="text" name="email"/><hr/>
+
+    <h3><b>Informações da Matrícula:</b></h3>
+    Série: <select>
+        <option>Série</option>
+        <option value="pré">Pré-escola</option>
+        <option value="infantil">Infantil</option>
+        <option value="fundamental">Fundamental</option>
+        <option value="médio">Médio</option>
+    </select><br/><br/>
+    Turno:<input type="radio" name="turno"/>Manhã <input type="radio" name="turno"/>Tarde<br/><br/>
+    Ativiade Extracurriculares:<br/>
+    <input type="checkbox" name="info"/>Informática<br/>
+    <input type="checkbox" name="msc"/>Música<br/>
+    <input type="checkbox" name="balet"/>Balet<br/>
+    <input type="checkbox" name="pnt"/>Pintura<br/>
+    <input type="checkbox" name="judô"/>Judô<br/>
+    <input type="checkbox" name="fut"/>Futebol<br/><br/>
+
+    <input type="submit" value="Enviar Formulário"/>
+    <input type="reset" value="Limpar Campos"/>
+    </form>
+
+</body>
+</html>

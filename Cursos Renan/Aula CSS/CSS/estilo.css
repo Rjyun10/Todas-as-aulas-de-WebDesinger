@@ -1,0 +1,44 @@
+body {
+    background-color: #dbdbdb;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 500px;
+}
+
+td{
+    padding-left: 10px;
+}
+.cab1 td:first-child{
+    border-radius: 10px 0px 0px 0px; 
+}
+.cab1 td:last-child{
+    border-radius: 0px 10px 0px 0px;
+}
+
+tr {
+    line-height: 40px;
+    border-bottom: solid 2px #A9A9A9;
+}
+
+table tr:nth-child(odd){
+    background-color: #CFCFCF;
+}
+
+tr:first-child {
+    background-color: #009579 !important;
+    color: white;
+}
+
+tr:last-child {
+    border-bottom: solid 4px #009579;
+}
+
+.line2{
+    color: #009579;
+}

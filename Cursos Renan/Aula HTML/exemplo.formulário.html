@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Formulário</title>
+</head>
+<body>
+    <h1><b>Envie uma mensagem preenchendo o <br />formulário abaixo</b></h1>
+    <form action="" method="">
+        <h3>Seu Nome:</h3>
+        <input type="text" name="nome" placeholder="Meu Nome E Sobrenome"/><br/><br/>
+        <h3>Seu Telefone:</h3>
+        <input type="text" name="fone" placeholder="(XX) XXXX-XXXX"/><br/><br/>
+        <h3>Seu E-Mail</h3>
+        <input type="text" name="email" placeholder="meuemail@exemplo.com.br"/><br/><br/>
+        <h3>Deseja receber nossas novidades?</h3>
+        <input type="radio" name="novidades"/> Sim <input type="radio" name="novidades"/>Não<br/><br/>
+
+        <h3>A onde nos encontrou:</h3>
+        <input type="checkbox" name="opc1"/>E-mail
+        <input type="checkbox" name="opc2"/>Google
+        <input type="checkbox" name="opc3"/>Youtube
+        <p>
+        <h3>Selecione uma opção na lista:</h3>
+        <select>
+            <option>Selecione uma opção</option>
+            <option value="Brasil">Brasil - BR</option>
+            <option value="Argentina">Argentina - AG</option>
+            <option value="Chile">Chile - CH</option>
+        </select>
+        <p>
+        <h3>Sua mensagem:</h3>
+        <textarea rows="4" name="opiniao" placeholder="Deixe sua opinião..."></textarea><br/><br/>
+        <input type="submit" value="Enviar"/>
+    </form>
+</body>
+</html>
