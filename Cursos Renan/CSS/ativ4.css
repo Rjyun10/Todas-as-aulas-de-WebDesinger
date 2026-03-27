@@ -1,0 +1,49 @@
+body{
+    background-image: linear-gradient(to right, #a4e0bc, #a9cddd);
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    width: 500px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    padding: 60px;
+    border-radius: 20px;
+}
+
+.inp{
+    text-align: left;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.login{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.submit{
+    background-image: linear-gradient(to right, #85faac, #89d7f5);
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 0 0 #88ffb0;
+}
+
+.clogin{
+    font-size: bold;
+    color: black;
+}
